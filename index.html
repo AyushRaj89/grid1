@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: 3cm 5cm 5cm 5cm 5cm 5cm 5cm ;
+            grid-template-rows: 1.5cm 1.5cm 1.5cm 1.5cm 1.5cm ;
+            
+            gap: 10px;
+        }
+        .d1{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            align-content: center;
+            text-align: center;
+            background-color: green;
+        }
+        .d2{
+            grid-column-start: 2;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            align-content: center;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .d3{
+            grid-column-start: 2;
+            grid-column-end: 5;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        .d4{
+            grid-column-start: 2;
+            grid-column-end: 2;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        .d5{
+            grid-column-start: 3;
+            grid-column-end: 3;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        .d6{
+            grid-column-start: 4;
+            grid-column-end: 4;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        .d7{
+            grid-column-start: 5;
+            grid-column-end: 5;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        .d8{
+            grid-column-start: 6;
+            grid-column-end: 6;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        .d9{
+            grid-column-start: 7;
+            grid-column-end: 7;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        .d10{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row: 4/6;
+            align-content: center;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        .d11{
+            grid-column-start: 2;
+            grid-column-end: 8;
+            grid-row-start: 4;
+            grid-row-end: 6;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        
+        .d12{
+            grid-column-start: 2;
+            grid-column-end: 8;
+            text-align: center;
+            align-content: center;
+            border: 2px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">Logo</div>
+        <div class="d2">2</div>
+        <div class="d3">21</div>
+        <div class="d4">3</div>
+        <div class="d5">4</div>
+        <div class="d6">5</div>
+        <div class="d7">6</div>
+        <div class="d8">7</div>
+        <div class="d9">8</div>
+        <div class="d10">Navigation</div>
+        <div class="d11">Content</div>
+        <div class="d12">Footer</div>
+    </div>
+</body>
+</html>
